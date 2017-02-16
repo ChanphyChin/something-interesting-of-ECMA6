@@ -11,6 +11,6 @@
       }
 3.遍历对象
       var obj = {"name":"jim","age":18};
-      for(var [key,value] of obj){
-      console.log(key+":"+value); //name:jim,age:18
+      for(var key of Object.key(obj)){
+      console.log(key+":"+obj[key]); //name:jim,age:18
       }
